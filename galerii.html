@@ -117,7 +117,7 @@
     <section id="intro" style="margin-top: 175px;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-2" style="background:blue;">
+                <div class="col-md-2" style="background:#2b3990;">
                     <!-- Sidebar  -->
                     <div class="tab-header clearfix">
                         <nav id="sidebar">
@@ -126,13 +126,16 @@
                             </div>
 
                             <ul style="cursor: pointer;" class="list-unstyled components" id="tabs">
-                                <h3>GALERI</h3>
+                                <li>
+                                    <h3><a id="all">GALERI</a></h3>
+                                </li>
                                 <li><a id="tab1">INA</a></li>
                                 <li><a id="tab2">AMA</a></li>
                                 <li><a id="tab3">LANSIA</a></li>
                                 <li><a id="tab4">NAPOSOBULUNG</a></li>
                                 <li>
-                                    <a href="#pageSubmenu" id="sub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">REMAJA</a>
+                                    <a href="#pageSubmenu" id="subTab" data-toggle="collapse" aria-expanded="false"
+                                        class="dropdown-toggle">REMAJA</a>
                                     <ul class="collapse list-unstyled" id="pageSubmenu">
                                         <li>
                                             <a id="tab5">NATAL</a>
@@ -154,23 +157,23 @@
 
                 </div>
 
-                <div class="col-lg-10" style="background:white;">
-                    <div class="intro-container" style="padding:50px 100px;">
-                        <div class="target" style="width:100%; height: 80vh; border: none">
-                            <div class="tab-container" id="tab1C">
-                                <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                <div class="col-md-10" style="background:white;">
+                    <div class="intro-container" style="padding:30px 100px 70px 100px;">
+                        <div style="width:100%; height: 80vh; border: none">
 
-
+                            <div class="tab-container" id="allC">
+                                <div id="tab1Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI</h3>
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="carousel-item active">
                                             <div class="carousel-background">
-                                                <img src="galeri/ina/ina1.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/ina/ina1.jpg" alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI INA</h2>
+                                                        <!-- <h2>GALERI INA</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -178,12 +181,12 @@
 
                                         <div class="carousel-item">
                                             <div class="carousel-background">
-                                                <img src="galeri/ina/ina2.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/ina/ina2.jpg" alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI INA</h2>
+                                                        <!-- <h2>GALERI INA</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -191,12 +194,12 @@
 
                                         <div class="carousel-item">
                                             <div class="carousel-background">
-                                                <img src="galeri/ina/ina3.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/ina/ina3.jpg" alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI INA</h2>
+                                                        <!-- <h2>GALERI INA</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -204,12 +207,12 @@
 
                                         <div class="carousel-item">
                                             <div class="carousel-background">
-                                                <img src="galeri/ina/ina4.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/ina/ina4.jpg" alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI INA</h2>
+                                                        <!-- <h2>GALERI INA</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -217,12 +220,204 @@
 
                                         <div class="carousel-item">
                                             <div class="carousel-background">
-                                                <img src="galeri/ina/ina5.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/ina/ina5.jpg" alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI INA</h2>
+                                                        <!-- <h2>GALERI INA</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/naposobulung/naposobulung.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI NAPOSOBULUNG</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/natal/natal1.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI NATAL</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti1.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti3.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/sekolahminggu/tarianlilin.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI SEKOLAH MINGGU</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="carousel-item ">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/umum/umum1.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI UMUM</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/umum/umum2.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI UMUM</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#tab1Carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#tab1Carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="tab-container" id="tab1C">
+                                <div id="tab1Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI INA</h3>
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <div class="carousel-item active">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/ina/ina1.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI INA</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/ina/ina2.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI INA</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/ina/ina3.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI INA</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/ina/ina4.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI INA</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/ina/ina5.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI INA</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -230,17 +425,26 @@
 
 
                                     </div>
+                                    <a class="carousel-control-prev" href="#tab1Carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
 
+                                    <a class="carousel-control-next" href="#tab1Carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
                             </div>
                             <div class="tab-container" id="tab2C">
                                 <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI AMA</h3>
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="carousel-item active">
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
-                                                    <h2>GAMBAR TIDAK ADA</h2>
+                                                    <h4>GAMBAR BELUM TERSEDIA</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -251,12 +455,13 @@
                             </div>
                             <div class="tab-container" id="tab3C">
                                 <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI LANSIA</h3>
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="carousel-item active">
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
-                                                    <h2>GAMBAR TIDAK ADA</h2>
+                                                    <h4>GAMBAR BELUM TERSEDIA</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,62 +471,82 @@
                                 </div>
                             </div>
                             <div class="tab-container" id="tab4C">
-                                <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
+                                <div id="tab4Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI NAPOSOBULUNG</h3>
 
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="carousel-item active">
                                             <div class="carousel-background">
-                                                <img src="galeri/naposobulung/naposobulung.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/naposobulung/naposobulung.jpg"
+                                                    alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI NAPOSOBULUNG</h2>
+                                                        <!-- <h2>GALERI NAPOSOBULUNG</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#tab4Carousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+
+                                        <a class="carousel-control-next" href="#tab4Carousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
 
                                 </div>
                             </div>
                             <div class="tab-container" id="tab5C">
-                                <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
+                                <div id="tab5Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI NATAL</h3>
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="carousel-item active">
                                             <div class="carousel-background">
-                                                <img src="galeri/remaja/natal/natal1.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/remaja/natal/natal1.jpg" alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI NATAL</h2>
+                                                        <!-- <h2>GALERI NATAL</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <a class="carousel-control-prev" href="#tab5Carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#tab5Carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
                             </div>
                             <div class="tab-container" id="tab6C">
-                                <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
+                                <div id="tab6Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI PURNABAKTI</h3>
 
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="carousel-item active">
                                             <div class="carousel-background">
-                                                <img src="galeri/remaja/purnabakti/purnabakti1.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti1.jpg"
+                                                    alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI PURNABAKTI</h2>
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -329,12 +554,13 @@
 
                                         <div class="carousel-item">
                                             <div class="carousel-background">
-                                                <img src="galeri/remaja/purnabakti/purnabakti2.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti2.jpg"
+                                                    alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI PURNABAKTI</h2>
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
@@ -342,75 +568,174 @@
 
                                         <div class="carousel-item">
                                             <div class="carousel-background">
-                                                <img src="galeri/remaja/purnabakti/purnabakti3.jpg" alt="">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti3.jpg"
+                                                    alt="">
                                             </div>
                                             <div class="carousel-container">
                                                 <div class="carousel-caption">
                                                     <a href="#">
-                                                        <h2>GALERI PURNABAKTI</h2>
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <a class="carousel-control-prev" href="#tab6Carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#tab6Carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
                             </div>
                             <div class="tab-container" id="tab7C">
-                                    <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                <div id="tab7Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI SEKOLAH MINGGU</h3>
 
-        
-                                            <div class="carousel-inner" role="listbox">
-        
-                                                <div class="carousel-item active">
-                                                    <div class="carousel-background">
-                                                        <img src="galeri/sekolahminggu/tarianlilin.jpg" alt="">
-                                                    </div>
-                                                    <div class="carousel-container">
-                                                        <div class="carousel-caption">
-                                                            <a href="#">
-                                                                <h2>GALERI SEKOLAH MINGGU</h2>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-        
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <div class="carousel-item active">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/sekolahminggu/tarianlilin.jpg"
+                                                    alt="">
                                             </div>
-        
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI SEKOLAH MINGGU</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
+
+                                    </div>
+
+                                    <a class="carousel-control-prev" href="#tab7Carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#tab7Carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                             </div>
                             <div class="tab-container" id="tab8C">
-                                    <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">        
-                                            <div class="carousel-inner" role="listbox">
-        
-                                                <div class="carousel-item active">
-                                                    <div class="carousel-background">
-                                                        <img src="galeri/umum/umum1.jpg" alt="">
-                                                    </div>
-                                                    <div class="carousel-container">
-                                                        <div class="carousel-caption">
-                                                            <a href="#">
-                                                                <h2>GALERI UMUM</h2>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-        
-                                                <div class="carousel-item">
-                                                        <div class="carousel-background">
-                                                            <img src="galeri/umum/umum2.jpg" alt="">
-                                                        </div>
-                                                        <div class="carousel-container">
-                                                            <div class="carousel-caption">
-                                                                <a href="#">
-                                                                    <h2>GALERI UMUM</h2>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                <div id="tab8Carousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI UMUM</h3>
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <div class="carousel-item active">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/umum/umum1.jpg" alt="">
                                             </div>
-        
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI UMUM</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/umum/umum2.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI UMUM</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#tab8Carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#tab8Carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-container" id="subTabC">
+                                <div id="tabCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                                    <h3 class="text-center">GALERI REMAJA</h3>
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <div class="carousel-item active">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/natal/natal1.jpg" alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI NATAL</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti1.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-background">
+                                                <img class="d-block w-100" src="galeri/remaja/purnabakti/purnabakti3.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="carousel-container">
+                                                <div class="carousel-caption">
+                                                    <a href="#">
+                                                        <!-- <h2>GALERI PURNABAKTI</h2> -->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#tabCarousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#tabCarousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -418,89 +743,6 @@
             </div>
 
         </div>
-
-        <!-- <div class="intro-container">
-          <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-    
-            <ol class="carousel-indicators"></ol>
-    
-            <div class="carousel-inner" role="listbox">
-    
-              <div class="carousel-item active">
-                <div class="carousel-background">
-                  <img src="img/tarianlilin.jpg" alt="">
-                </div>
-                <div class="carousel-container">
-                  <div class="carousel-caption">
-                    <a href="#">
-                      <p>25 Des 2017</p>
-                      <h2>Tarian Lilin</h2>
-                    </a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="carousel-item">
-                <div class="carousel-background">
-                  <img src="img/intro-carousel/vocalgrup.jpg" alt="">
-                </div>
-                <div class="carousel-container">
-                  <div class="carousel-caption">
-                    <a href="#">
-                      <p>25 Juni 2018</p>
-                      <h2>Vocal Group Hasana</h2>
-                    </a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="carousel-item">
-                <div class="carousel-background">
-                  <img src="img/intro-carousel/kegiatanlepassidi.jpg" alt="">
-                </div>
-                <div class="carousel-container">
-                  <div class="carousel-caption">
-                    <a href="#">
-                      <p>9 Juli 2018</p>
-                      <h2>Kegiatan Lepas Sidi</h2>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="carousel-item">
-                <div class="carousel-background">
-                  <img src="img/intro-carousel/25tahun.jpg" alt="">
-                </div>
-                <div class="carousel-container">
-                  <div class="carousel-caption">
-                    <a href="#">
-                      <p>20 Agustus 2018</p>
-                      <h2>acara 25 tahun kependetaan Pdt.B.Silitonga,S.Th</h2>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="carousel-background">
-                  <img src="img/pestagotilon.jpg" alt="">
-                </div>
-                <div class="carousel-container">
-                  <div class="carousel-caption">
-                    <a href="#">
-                      <p>14 November 2018</p>
-                      <h2>Pesta Gotilon</h2>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              
-            </div>
-    
-          </div>
-        </div> -->
     </section>
 
 
@@ -529,7 +771,7 @@
                                 <a href="#">gerejaHKBP@gmail.com</a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/smeapgri" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/pages/HKBP-Cengkarengjakarta-Barat/278758692180921" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="https://www.instagram.com/smeapgri" target="_blank"><i class="fa fa-instagram"></i></a>
                                 <a href="https://www.twitter.com/smeapgri" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -549,7 +791,7 @@
 
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <div id="map" class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5297273426186!2d106.62741301427245!3d-6.193614495516209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f92d554cc63d%3A0x44f497806a78563b!2sSMK+PGRI+1+Tangerang!5e0!3m2!1sen!2sid!4v1528115272980"
+                            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.854458449819!2d106.73050021476868!3d-6.150239895547084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDknMDAuOSJTIDEwNsKwNDMnNTcuNyJF!5e0!3m2!1sen!2sid!4v1549810050510"
                                 width="250" height="150" frameborder="0" style="border:1" allowfullscreen></iframe>
                         </div>
                     </div>

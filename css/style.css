@@ -1524,8 +1524,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   color: white;
   font-weight: bold;
-
-  background:black;
 }
 
 #sidebar ul li a:hover {
